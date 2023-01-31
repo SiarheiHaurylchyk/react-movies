@@ -1,0 +1,19 @@
+
+.footWrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    background-color: #362ea4;
+    height: 70px;
+}
+
+.text{
+    padding-left: 1rem;
+    color: white;
+}
+
+.myRef{
+   display: flex;
+    justify-content: end;
+    padding-right: 1.5rem;
+}

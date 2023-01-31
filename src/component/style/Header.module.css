@@ -1,0 +1,41 @@
+
+.navWrapper{
+    display: grid;
+    grid-template-columns: 1fr  1fr;
+    align-items: center;
+    background-color: #362ea4;
+    height: 70px;
+
+}
+
+.brandLogo{
+   padding: 0 2rem;
+    max-width: 50px;
+    font-size: 20px;
+}
+
+.myRef{
+    display: grid;
+    grid-template-columns: 100px 100px 100px ;
+    justify-content: end;
+
+}
+
+.search{
+    display: grid;
+    justify-content: end;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width: 500px) {
+    .myRef{
+       display: flex;
+        flex-direction: column;
+        justify-self: end;
+        padding-right: 20px;
+    }
+}
